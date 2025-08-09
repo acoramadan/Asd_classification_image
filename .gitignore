@@ -1,0 +1,40 @@
+# Ignore data folder
+data/
+result/
+# ignore model checkpoint folder
+facial_emotions_image_detection/
+
+# Optional: Ignore specific data file types
+*.csv
+*.json
+*.xlsx
+*.pkl
+*.h5
+*.txt
+
+*.pth
+*.pt
+*.model
+*.weights
+*.safetensors
+*.bin
+
+outputs/
+results/
+logs/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+
+.DS_Store
+Thumbs.db
